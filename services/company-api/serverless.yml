@@ -107,7 +107,7 @@ functions:
           path: company/{id}
           method: delete
           cors: true
-          authorizer: aws_iam          
+          authorizer: aws_iam      
 
 resources:
   # API Gateway Errors
@@ -116,9 +116,14 @@ resources:
   - ${file(resources/cognito-policy.yml)}
 
   - Outputs:
-      CompanyApiGatewayRestApiId:
+      ApiGatewayRestApiId:
         Value:
-          Ref: CompanyApiGatewayRestApi
+          Ref: ApiGatewayRestApi
         Export:
-          Name: ${self:custom.stage}-CompanyApiGatewayRestApiId
-
+          Name: ${self:custom.stage}-ApiGatewayRestApiId
+    
+      ApiGatewayRestApiRootResourceId:
+        Value:
+           Fn::GetAtt:
+            - ApiGatewayRestApi
+            - RootResourceId 
