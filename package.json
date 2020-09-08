@@ -1,0 +1,27 @@
+{
+  "name": "originate-api",
+  "version": "1.0.0",
+  "description": "Build on [Serverless Stack](https://serverless-stack.com). Special thanks to the https://github.com/AnomalyInnovations team!",
+  "main": "config.js",
+  "dependencies": {
+    "aws-xray-sdk": "^2.3.6"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.541.0",
+    "serverless-bundle": "^1.2.5",
+    "serverless-offline": "^5.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orgtom78/originate-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orgtom78/originate-api.git/issues"
+  },
+  "homepage": "https://github.com/orgtom78/originate-api.git#readme"
+}

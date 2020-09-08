@@ -1,0 +1,8 @@
+{
+  "body": "{\"title\":\"hello world\",\"buyercompanyname\":\"hello company\",\"buyercountry\":\"hello company country\",\"buyeraddress\":\"hello company address\",\"financeamountrequest\":\"hello company financeamountrequest\",\"soldgoodsdescription\":\"hello company soldgoodsdescription\",\"paymentterms\":\"90\",\"pastyearvolume\":\"10000\",\"nextyearvolume\":\"15000\",\"currency\":\"USD\",\"salescontractattachment\":\"contract.jpg\",\"purchaseorderattachment\":\"po.jpg\",\"purchaseorderamount\":\"2000\",\"purchaseorderdate\":\"01.01.2020\",\"attachment\":\"hello.jpg\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "e1419377-2016-45b4-9482-a14d1afdde94"
+    }
+  }
+}

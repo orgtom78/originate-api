@@ -1,0 +1,11 @@
+{
+  "body": "{\"title\":\"new world\",\"buyercompanyname\":\"new company\",\"buyercountry\":\"new company country\",\"buyeraddress\":\"new company address\",\"financeamountrequest\":\"new company financeamountrequest\",\"soldgoodsdescription\":\"new company soldgoodsdescription\",\"paymentterms\":\"90\",\"pastyearvolume\":\"10000\",\"nextyearvolume\":\"15000\",\"currency\":\"USD\",\"salescontractattachment\":\"contract.jpg\",\"purchaseorderattachment\":\"po.jpg\",\"purchaseorderamount\":\"2000\",\"purchaseorderdate\":\"01.01.2020\",\"attachment\":\"new.jpg\"}",
+  "pathParameters": {
+    "id": "578eb840-f70f-11e6-9d1a-1359b3b22944"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
