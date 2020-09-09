@@ -4,11 +4,13 @@ import { success, failure } from "../../libs/response-lib";
 
 export async function main(event, context) {
   const data = JSON.parse(event.body);
+  const projectId = uuid.v1();
   const params = {
-    TableName: "projects",
+    TableName: "originate",
     Item: {
       userId: event.requestContext.identity.cognitoIdentityId,
-      projectId: uuid.v1(),
+      projectId: projectId,
+      sortkey: projectId,
       title: data.title,
       buyercompanyname: data.buyercompanyname,
       buyercountry: data.buyercountry,
@@ -23,7 +25,6 @@ export async function main(event, context) {
       purchaseorderattachment: data.purchaseorderattachment,
       purchaseorderamount: data.purchaseorderamount,
       purchaseorderdate: data.purchaseorderdate,
-      attachment: data.attachment,
       createdAt: Date.now()
     }
   };

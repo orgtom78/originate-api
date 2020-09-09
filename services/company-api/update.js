@@ -26,8 +26,7 @@ export async function main(event, context) {
       ":bankaccountstatementattachment": data.bankaccountstatementattachment || null,
       ":companywebsite": data.companywebsite || null,
       ":companylastyearrevenue": data.companylastyearrevenue || null,
-      ":companylastyearprofit": data.companylastyearprofit || null,
-
+      ":companylastyearprofit": data.companylastyearprofit || null
     },
     // 'ReturnValues' specifies if and how to return the item's attributes,
     // where ALL_NEW returns all attributes of the item after the update; you

@@ -17,18 +17,12 @@ provider:
   tracing:
     lambda: true
 
-  apiGateway:
-    restApiId:
-      'Fn::ImportValue': ${self:custom.stage}-ApiGatewayRestApiId
-    restApiRootResourceId:
-      'Fn::ImportValue': ${self:custom.stage}-ApiGatewayRestApiRootResourceId
-
   # These environment variables are made available to our functions
   # under process.env.
   environment:
     stage: ${self:custom.stage}
     resourcesStage: ${self:custom.resourcesStage}
-    projectPurchasedTopicArn:
+    ProjectPurchasedTopicArn:
       Ref: ProjectPurchasedTopic
 
   iamRoleStatements:
@@ -60,7 +54,7 @@ functions:
     handler: billing.main
     events:
       - http:
-          path: billing
+          path: projects/billing
           method: post
           cors: true
           authorizer: aws_iam
@@ -78,4 +72,3 @@ resources:
         Ref: ProjectPurchasedTopic
       Export:
         Name: ProjectPurchasedTopicArn-${self:custom.stage}
-
