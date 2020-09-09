@@ -16,7 +16,7 @@ export async function main(event, context) {
     // 'ExpressionAttributeValues' defines the value in the update expression
     UpdateExpression: "SET title = :title, buyercompanyname = :buyercompanyname, buyercountry =:buyercountry, buyeraddress =:buyeraddress, financeamountrequest =:financeamountrequest, soldgoodsdescription =:soldgoodsdescription, paymentterms =:paymentterms, pastyearvolume =:pastyearvolume, nextyearvolume =:nextyearvolume, currency =:currency, salescontractattachment =:salescontractattachment, purchaseorderattachment =:purchaseorderattachment, purchaseorderamount =:purchaseorderamount, purchaseorderdate =:purchaseorderdate",
     ExpressionAttributeValues: {
-      ":title:": data.title || null,
+      ":title": data.title || null,
       ":buyercompanyname": data.buyercompanyname || null,
       ":buyercountry": data.buyercountry || null,
       ":buyeraddress": data.buyeraddress || null,

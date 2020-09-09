@@ -1,0 +1,10 @@
+{
+  "pathParameters": {
+    "companyfinancialsId": "2ec61a00-f258-11ea-8816-4734dce98ea1"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "e1419377-2016-45b4-9482-a14d1afdde94"
+    }
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "body": "{\"title\":\"new world\",\"buyercompanyname\":\"new company\",\"buyercountry\":\"new company country\",\"buyeraddress\":\"new company address\",\"financeamountrequest\":\"new company financeamountrequest\",\"soldgoodsdescription\":\"new company soldgoodsdescription\",\"paymentterms\":\"90\",\"pastyearvolume\":\"10000\",\"nextyearvolume\":\"15000\",\"currency\":\"USD\",\"salescontractattachment\":\"contract.jpg\",\"purchaseorderattachment\":\"po.jpg\",\"purchaseorderamount\":\"2000\",\"purchaseorderdate\":\"01.01.2020\",\"attachment\":\"old.jpg\"}",
+  "body": "{\"title\":\"new world\",\"buyercompanyname\":\"new company\",\"buyercountry\":\"new company country\",\"buyeraddress\":\"new company address\",\"financeamountrequest\":\"new company financeamountrequest\",\"soldgoodsdescription\":\"new company soldgoodsdescription\",\"paymentterms\":\"90\",\"pastyearvolume\":\"10000\",\"nextyearvolume\":\"15000\",\"currency\":\"USD\",\"salescontractattachment\":\"contract.jpg\",\"purchaseorderattachment\":\"po.jpg\",\"purchaseorderamount\":\"2000\",\"purchaseorderdate\":\"01.01.2020\"}",
   "pathParameters": {
-    "projectId": "df61bfb0-f242-11ea-8114-7ffbd74b1cc8"
+    "projectId": "71ffd6c0-f27c-11ea-b672-ed4ed34c4d73"
   },
   "requestContext": {
     "identity": {
-      "cognitoIdentityId": "e1419377-2016-45b4-9482-a14d1afdde94"
+      "cognitoIdentityId": "f3a002f1-f501-4455-9ab9-d672be7d0c6e"
     }
   }
 }

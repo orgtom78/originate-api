@@ -1,0 +1,11 @@
+{
+  "body": "{\"companyname\":\"new company\",\"companycountry\":\"new companycountry\",\"companyregisternumber\":\"987654321\",\"companyaddress\":\"Sydney\",\"dateofincorporation\":\"01.01.2000\",\"registrationcertattachment\":\"NEWregistrationcertattachment.pdf\",\"companyindustry\":\"NEWTextiles\",\"companywebsite\":\"www.NEW.com\"}",
+  "pathParameters": {
+    "companyId": "f0cb4de0-f281-11ea-8e56-7dde18e76aa0"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "f3a002f1-f501-4455-9ab9-d672be7d0c6e"
+    }
+  }
+}
