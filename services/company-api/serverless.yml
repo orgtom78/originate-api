@@ -114,3 +114,10 @@ resources:
   - ${file(resources/api-gateway-errors.yml)}
   # Cognito Identity Pool Policy
   - ${file(resources/cognito-policy.yml)}
+
+  - Outputs:
+    ApiGatewayCompanyRestApiId:
+      Value:
+        Ref: ApiGatewaycompanyRestApi
+      Export:
+        Name: ${self:custom.stage}-ApiGatewayCompanyRestApiId
